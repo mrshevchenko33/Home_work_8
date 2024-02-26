@@ -6,7 +6,6 @@ if my_list:
     for i in my_list[::2]:
         my_num += i
         result = my_num * my_list[-1]
-
 else:
     result = 0
 print(result)
